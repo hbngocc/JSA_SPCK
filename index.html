@@ -1,66 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="/index.css">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
 
-<body>
+  <body>
     <div class="header">
-        <div class="top-header">
-            <a href="logo"><img src="/img/logo.png" alt=""></a>
-            <h1>Phát thanh xúc cảm của bạn !</h1>
-        </div>
-        <div class="nav">
-            <ul>
-                <li><a href="/index.html">Trang chủ</a></li>
-                <li><a href="/blog1.html">Blog</a></li>
-                <li><a href="">Đăng ký</a></li>
-                <li><a href="/dangnhap.html">Đăng nhập</a></li>
-            </ul>
-        </div>
+      <div class="top-header">
+        <a href="logo"><img src="./img/logo.png" alt="" /></a>
+        <h1>Phát thanh xúc cảm của bạn !</h1>
+      </div>
+      <div class="nav">
+        <ul>
+          <li><a href="./index.html">Trang chủ</a></li>
+          <li><a href="./blog1.html">Blog</a></li>
+          <li><a href="">Đăng ký</a></li>
+          <li><a href="./dangnhap.html">Đăng nhập</a></li>
+        </ul>
+      </div>
+      <div class="sub-header">
+        <ul>
+          <li><a href="./blog1.html">BLOG TẾT</a></li>
+          <li><a href="#">BLOG CHỢ TẾT</a></li>
+          <li><a href="#">BLOG HOA TẾT</a></li>
+          <li><a href="#">BLOG BÁNH CHƯNG</a></li>
+          <li><a href="#">BLOG ÁO DÀI</a></li>
+        </ul>
+      </div>
     </div>
-   
 
     <div class="mainCarousel">
-        <div id="carouselExampleControls" class="carousel slide h-100" data-bs-ride="carousel">
-            <div class="carousel-inner h-100%">
-                <div class="carousel-item active h-100">
-                    <img src="/img/chohoa1.jpeg" class="d-block w-100 h-100" alt="...">
-                </div>
-                <div class="carousel-item h-100">
-                    <img src="/img/chohoa1.jpeg" class="d-block w-100 h-100" alt="...">
-                </div>
-                <div class="carousel-item h-100">
-                    <img src="/img/chohoa1.jpeg" class="d-block w-100 h-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide h-100"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner h-100%">
+          <div class="carousel-item active h-100">
+            <img
+              src="./img/chohoa1.jpeg"
+              class="d-block w-100 h-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item h-100">
+            <img
+              src="./img/chohoa1.jpeg"
+              class="d-block w-100 h-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item h-100">
+            <img
+              src="./img/chohoa1.jpeg"
+              class="d-block w-100 h-100"
+              alt="..."
+            />
+          </div>
         </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-        crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-</body>
 
+    <div class="container-box">
+      <h2>BLOG MỚI</h2>
+      <div class="blog-new">
+        <div class="blogItemWrapper">
+          <div class="blog-item">
+            <img src="./img/img1.jpeg" alt="" />
+          </div>
+          <p>Blog Tết</p>
+        </div>
+        <div class="blogItemWrapper">
+          <div class="blog-item">
+            <img src="./img/chotet.jpeg" alt="" />
+          </div>
+          <p>Blog Chợ Tết</p>
+        </div>
+        <div class="blogItemWrapper">
+          <div class="blog-item">
+            <img src="./img4/banhchung1.jpeg" alt="" />
+          </div>
+          <p>Blog Bánh chưng</p>
+        </div>
+        <div class="blogItemWrapper">
+          <div class="blog-item">
+            <img src="./img5/aodai1.webp" alt="" />
+          </div>
+          <p>Blog Áo dài</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-wrapper">
+      <h2>BLOG CỦA TÔI</h2>
+      <div class="containerLeftRight">
+        <div class="container-left">
+          <img src="./img5/blogcuatoi1.jpg" alt="" />
+          <h3>Giếng nước</h3>
+          <small>2023-12-24 04:20:00</small>
+          <p>
+            Nước trong vắt, nhìn xuống thấy tận đáy giếng, sạch sẽ. Tang giếng
+            bằng đá ong. Khỏa tay trong nước giếng trong vắt mát lạnh tê người.
+          </p>
+        </div>
+        <div class="container-right">
+          <div class="right-item">
+            <img src="./img5/blogcuatoi2.jpg" alt="" />
+            <p class="rightItemText">Bâng khuâng ngày cũ</p>
+          </div>
+          <div class="right-item">
+            <img src="./img5/blogcuatoi3.jpg" alt="" />
+            <p class="rightItemText">Năm mới, khởi đầu mới</p>
+          </div>
+          <div class="right-item">
+            <img src="./img5/blogcuatoi4.jpg" alt="" />
+            <p class="rightItemText">Có một người luôn nghĩ về anh</p>
+          </div>
+          <div class="right-item">
+            <img src="./img5/blogcuatoi5.jpg" alt="" />
+            <p class="rightItemText">Thư gửi con</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-wrapper blogcuocsong">
+      <h2>BLOG CUỘC SỐNG</h2>
+      <div class="containerLeftRight">
+        <div class="container-left">
+          <img src="./img5/blogcuocsong1.jpg" alt="" />
+          <h3>5 dấu hiệu cho thấy bạn là người có tư duy sâu sắc</h3>
+          <small>2023-12-24 04:20:00</small>
+          <p>
+            Nhiều người cho rằng người có tư duy sâu sắc (deep-thinker) có nhiều
+            điểm tương đồng với những người overthinking (suy nghĩ quá nhiều).
+            Tuy nhiên, giữa họ thật ra không có quá nhiều điểm chung. Những
+            người có tư duy sâu sắc sở hữu những góc nhìn khác biệt về cuộc sống
+            cũng như những tính cách khiến họ đặc biệt so với số đông. Liệu bạn
+            có phải là một trong số họ? Hãy cùng điểm qua những dấu hiệu sau đây
+            của một người có tư duy sâu sắc nhé.
+          </p>
+        </div>
+        <div class="container-right">
+          <div class="right-item">
+            <img src="./img5/blogcuocsong2.jpg" alt="" />
+            <p class="rightItemText">Những lợi ích từ ‘Shadow Work’ –</p>
+          </div>
+          <div class="right-item">
+            <img src="./img5/blogcuocsong3.jpg" alt="" />
+            <p class="rightItemText">13 đặc điểm nhận biết người sở hữu vẻ</p>
+          </div>
+          <div class="right-item">
+            <img src="./img5/blogcuocsong4.jpg" alt="" />
+            <p class="rightItemText">
+              8 thói quen nổi bật nhất của những người phụ nữ bản
+            </p>
+          </div>
+          <div class="right-item">
+            <img src="./img5/blogcuocsong5.jpg" alt="" />
+            <p class="rightItemText">
+              8 thói quen nhỏ giúp cải thiện cuộc sống
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footerColumn">
+        <p class="footerDesc">
+          BLOG RADIO - BLOG VIỆT ĐƯỢC PHÁT TRIỂN BỞI CÔNG TY CP TRUYỀN THÔNG
+          VNNPLUS.
+        </p>
+        <img src="./img5/footerLogo.svg" alt="" />
+        <p>
+          ® BẢN QUYỀN NỘI DUNG THUỘC VỀ WEBSITE BLOGRADIO.VN VÀ CÔNG TY CP
+          TRUYỀN THÔNG VNNPLUS VÀ ĐƯỢC BẢO HỘ BỞI CỤC BẢN QUYỀN TÁC GIẢ. GIẤY
+          PHÉP THIẾT LẬP MẠNG XÃ HỘI SỐ 166/GP-BTTTT DO BỘ THÔNG TIN VÀ TRUYỀN
+          THÔNG CẤP NGÀY 05/04/2016. CẤM SAO CHÉP DƯỚI MỌI HÌNH THỨC NẾU KHÔNG
+          CÓ SỰ CHẤP THUẬN BẰNG VĂN BẢN.
+        </p>
+      </div>
+      <div class="footerColumn">
+        <div class="footerImg">
+          <img src="./img5/DMCA.png" alt="" />
+          <img src="./img5/BlogRadio.svg" alt="" />
+        </div>
+        <p class="footerDescRight">
+          CHỊU TRÁCH NHIỆM NỘI DUNG: ÔNG NGUYỄN THÀNH VINH VĂN PHÒNG: TÒA NHÀ SỐ
+          18/11 THÁI HÀ, ĐỐNG ĐA, HÀ NỘI. LIÊN HỆ : (+84) 24 37725502 - FAX:
+          (+84) 24 37726658 EMAIL: BLOGRADIO@VNNPLUS.VN ĐIỀU KHOẢN SỬ DỤNG DỊCH
+          VỤ GÓP Ý VÀ BÁO LỖI LIÊN KẾT: NHAC.VN
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
 </html>

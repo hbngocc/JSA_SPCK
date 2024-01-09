@@ -7,7 +7,7 @@ let errorMessagePassword = errorMessages[1];
 
 // Bien chua tai khoan he thong
 const account = {
-  email: "khang123@gmail.com",
+  email: "ngoc2005@gmail.com",
   pass: "123123",
 };
 
@@ -53,14 +53,14 @@ btnLogin.addEventListener("click", function () {
     // Email rỗng và pass không rỗng
     emailInput.classList.add("error");
     passwordInput.classList.remove("error");
-    errorMessageEmail.innerText = "Tài khoản rỗng";
+    errorMessageEmail.innerText = "Email Error";
     errorMessagePassword.innerText = "";
   } else if (emailValue !== "" && passValue == "") {
     // Email không rỗng và pass lại rỗng
     emailInput.classList.remove("error");
     passwordInput.classList.add("error");
     errorMessageEmail.innerText = "";
-    errorMessagePassword.innerText = "Mật khẩu rỗng";
+    errorMessagePassword.innerText = "Password Error";
   } else {
     // Email và pass đều rỗng
     emailInput.classList.add("error");
