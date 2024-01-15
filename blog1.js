@@ -24,18 +24,4 @@ function checkLogin() {
            `;
     }
 }
-
-// let bloglink = document.querySelectorAll(".linkblog");
-// console.log(bloglink);
-// localStorage.setItem("ngocdangnhap", 123123);
-// for (let i = 0; i < bloglink.length; i++) {
-//     bloglink[i].addEventListener("click", function () {
-//         let indexBlog = (i += 2);
-//         if (localStorage.getItem("ngocdangnhap")) {
-//             location.href = `blog${indexBlog}.html`;
-//         } else {
-//             alert("Plese log in before read this blog");
-//         }
-//     });
-// }
 checkLogin();
